@@ -38,8 +38,15 @@ end
 # Define your play method below
 def play(board)
   numOfTurns = 0
+<<<<<<< HEAD
   while numOfTurns <= 8
     numOfTurns += 1
     turn(board)
   end
+=======
+  while numOfTurns <= 9
+  turn(board)
+  numOfTurns += 1
+end
+>>>>>>> 4b5ffedce15ec5b592b374a91f37efb2aa20d23a
 end
